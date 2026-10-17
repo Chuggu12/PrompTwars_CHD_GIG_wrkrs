@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p app/templates)",
+      "Bash(touch app/static/sw.js app/static/manifest.webmanifest)",
+      "Bash(.venv/Scripts/ruff.exe check *)"
+    ]
+  }
+}

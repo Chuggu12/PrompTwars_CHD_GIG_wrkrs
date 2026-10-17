@@ -1,0 +1,21 @@
+{
+  "about": "Feels-like temperature thresholds for heat alerts. Adapted from heat-index categories; verify with your local health authority and IMD/NDMA heat action plans.",
+  "entries": [
+    {
+      "id": "feels_like",
+      "caution_c": 35,
+      "danger_c": 41,
+      "title": {"en": "Heat alert thresholds (feels-like temperature)", "hi": "गर्मी चेतावनी सीमा (महसूस होने वाला तापमान)", "ta": "வெப்ப எச்சரிக்கை வரம்புகள் (உணரப்படும் வெப்பநிலை)", "pa": "ਗਰਮੀ ਚੇਤਾਵਨੀ ਹੱਦਾਂ (ਮਹਿਸੂਸ ਹੋਣ ਵਾਲਾ ਤਾਪਮਾਨ)"},
+      "steps": {
+        "en": ["Drink water every 20 to 30 minutes, even if not thirsty.", "Cover your head and wear light cotton clothes.", "Rest in shade between 12 noon and 3 pm when you can.", "Signs of heat stroke: confusion, very hot dry skin, fainting. Call 108."],
+        "hi": ["प्यास न लगे तब भी हर 20 से 30 मिनट में पानी पिएँ।", "सिर ढकें और हल्के सूती कपड़े पहनें।", "हो सके तो दोपहर 12 से 3 बजे छाँव में आराम करें।", "लू के लक्षण: उलझन, बहुत गर्म सूखी त्वचा, बेहोशी। 108 पर कॉल करें।"],
+        "ta": ["தாகம் இல்லாவிட்டாலும் 20 முதல் 30 நிமிடங்களுக்கு ஒருமுறை தண்ணீர் குடியுங்கள்.", "தலையை மூடி, இலகுவான பருத்தி ஆடை அணியுங்கள்.", "முடிந்தால் மதியம் 12 முதல் 3 மணி வரை நிழலில் ஓய்வெடுங்கள்.", "வெப்பத் தாக்க அறிகுறிகள்: குழப்பம், மிகச் சூடான உலர்ந்த தோல், மயக்கம். 108 ஐ அழைக்கவும்."],
+        "pa": ["ਪਿਆਸ ਨਾ ਲੱਗੇ ਤਾਂ ਵੀ ਹਰ 20 ਤੋਂ 30 ਮਿੰਟ ਵਿੱਚ ਪਾਣੀ ਪੀਓ।", "ਸਿਰ ਢੱਕੋ ਅਤੇ ਹਲਕੇ ਸੂਤੀ ਕੱਪੜੇ ਪਾਓ।", "ਹੋ ਸਕੇ ਤਾਂ ਦੁਪਹਿਰ 12 ਤੋਂ 3 ਵਜੇ ਛਾਂ ਵਿੱਚ ਆਰਾਮ ਕਰੋ।", "ਲੂ ਦੇ ਲੱਛਣ: ਉਲਝਣ, ਬਹੁਤ ਗਰਮ ਸੁੱਕੀ ਚਮੜੀ, ਬੇਹੋਸ਼ੀ। 108 'ਤੇ ਕਾਲ ਕਰੋ।"]
+      },
+      "official_url": "https://ndma.gov.in",
+      "source": "Heat-index categories; National Disaster Management Authority heatwave guidance",
+      "verified_on": null,
+      "verified": false
+    }
+  ]
+}

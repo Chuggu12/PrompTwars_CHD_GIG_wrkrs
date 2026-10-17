@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b5d57">
+  <title>{{ app_name }}: work companion</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/static/icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/css/tokens.css">
+  <link rel="stylesheet" href="/static/css/base.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+  <script type="module" src="/static/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app">
+    <header class="topbar">
+      <strong class="brand">{{ app_name }}</strong>
+      <span id="demo-tag" class="tag tag--demo" hidden>DEMO</span>
+      <label class="sr-only" for="lang">Language</label>
+      <select id="lang">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="ta">தமிழ்</option>
+        <option value="pa">ਪੰਜਾਬੀ</option>
+      </select>
+      <button id="fixit-btn" class="btn btn--ghost" type="button">Something not working?</button>
+    </header>
+    <div id="banner" class="banner" role="status" aria-live="polite" hidden></div>
+    <main id="main" tabindex="-1" aria-live="polite"></main>
+    <a class="fab" href="#/emergency" aria-label="Emergency help">SOS</a>
+    <nav class="bottomnav" aria-label="Main">
+      <a href="#/home">Home</a>
+      <a href="#/earnings">Earnings</a>
+      <a href="#/rights">Rights &amp; Help</a>
+      <a href="#/documents">Documents</a>
+      <a href="#/more">More</a>
+    </nav>
+  </div>
+</body>
+</html>

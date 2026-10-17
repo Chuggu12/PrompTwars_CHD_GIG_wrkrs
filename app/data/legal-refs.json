@@ -1,0 +1,59 @@
+{
+  "about": "Legal and official references used in letters. 'indian_law' items still need verification; 'international_standard' items are NOT automatically Indian law.",
+  "entries": [
+    {
+      "id": "code_social_security_2020",
+      "kind": "indian_law",
+      "title": {"en": "Code on Social Security, 2020 (recognises gig and platform workers)", "hi": "सामाजिक सुरक्षा संहिता, 2020 (गिग और प्लेटफ़ॉर्म वर्कर को मान्यता)", "ta": "சமூகப் பாதுகாப்புச் சட்டம், 2020 (கிக் மற்றும் தளப்பணியாளர்களை அங்கீகரிக்கிறது)", "pa": "ਸਮਾਜਿਕ ਸੁਰੱਖਿਆ ਕੋਡ, 2020 (ਗਿਗ ਅਤੇ ਪਲੇਟਫਾਰਮ ਵਰਕਰਾਂ ਨੂੰ ਮਾਨਤਾ)"},
+      "official_url": "https://labour.gov.in",
+      "source": "Ministry of Labour & Employment",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "cpgrams",
+      "kind": "indian_gov_service",
+      "title": {"en": "CPGRAMS: online public grievance portal", "hi": "CPGRAMS: ऑनलाइन लोक शिकायत पोर्टल", "ta": "CPGRAMS: இணையவழி பொதுக் குறைதீர் தளம்", "pa": "CPGRAMS: ਆਨਲਾਈਨ ਜਨਤਕ ਸ਼ਿਕਾਇਤ ਪੋਰਟਲ"},
+      "official_url": "https://pgportal.gov.in",
+      "source": "Department of Administrative Reforms & Public Grievances",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "samadhan",
+      "kind": "indian_gov_service",
+      "title": {"en": "SAMADHAN: labour dispute portal", "hi": "समाधान: श्रम विवाद पोर्टल", "ta": "சமாதான்: தொழிலாளர் தகராறு தளம்", "pa": "ਸਮਾਧਾਨ: ਕਿਰਤ ਵਿਵਾਦ ਪੋਰਟਲ"},
+      "official_url": "https://samadhan.labour.gov.in",
+      "source": "Ministry of Labour & Employment",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "rajasthan_gig_act_2023",
+      "kind": "indian_law",
+      "title": {"en": "Rajasthan Platform Based Gig Workers (Registration and Welfare) Act, 2023", "hi": "राजस्थान प्लेटफ़ॉर्म आधारित गिग कर्मकार (रजिस्ट्रीकरण और कल्याण) अधिनियम, 2023", "ta": "ராஜஸ்தான் தள அடிப்படையிலான கிக் தொழிலாளர் (பதிவு மற்றும் நலன்) சட்டம், 2023", "pa": "ਰਾਜਸਥਾਨ ਪਲੇਟਫਾਰਮ ਅਧਾਰਤ ਗਿਗ ਵਰਕਰ (ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਅਤੇ ਭਲਾਈ) ਐਕਟ, 2023"},
+      "official_url": "https://labour.rajasthan.gov.in",
+      "source": "Government of Rajasthan",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "karnataka_gig_act_2025",
+      "kind": "indian_law",
+      "title": {"en": "Karnataka Platform Based Gig Workers (Social Security and Welfare) Act, 2025", "hi": "कर्नाटक प्लेटफ़ॉर्म आधारित गिग कर्मकार (सामाजिक सुरक्षा और कल्याण) अधिनियम, 2025", "ta": "கர்நாடகா தள அடிப்படையிலான கிக் தொழிலாளர் (சமூகப் பாதுகாப்பு மற்றும் நலன்) சட்டம், 2025", "pa": "ਕਰਨਾਟਕ ਪਲੇਟਫਾਰਮ ਅਧਾਰਤ ਗਿਗ ਵਰਕਰ (ਸਮਾਜਿਕ ਸੁਰੱਖਿਆ ਅਤੇ ਭਲਾਈ) ਐਕਟ, 2025"},
+      "official_url": "https://labour.karnataka.gov.in",
+      "source": "Government of Karnataka",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "ilo_platform_work",
+      "kind": "international_standard",
+      "title": {"en": "ILO work on decent work in the platform economy", "hi": "प्लेटफ़ॉर्म अर्थव्यवस्था में सम्मानजनक काम पर ILO का काम", "ta": "தளப் பொருளாதாரத்தில் கண்ணியமான வேலை குறித்த ILO பணி", "pa": "ਪਲੇਟਫਾਰਮ ਅਰਥਵਿਵਸਥਾ ਵਿੱਚ ਸਨਮਾਨਜਨਕ ਕੰਮ ਬਾਰੇ ILO ਦਾ ਕੰਮ"},
+      "official_url": "https://www.ilo.org",
+      "source": "International Labour Organization",
+      "verified_on": null,
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "about": "National helplines. Numbers must be re-verified on the official website before production use.",
+  "entries": [
+    {
+      "id": "emergency",
+      "number": "112",
+      "group": "emergency",
+      "title": {"en": "Emergency (police, fire, ambulance)", "hi": "आपातकाल (पुलिस, फ़ायर, एम्बुलेंस)", "ta": "அவசர உதவி (காவல், தீயணைப்பு, ஆம்புலன்ஸ்)", "pa": "ਐਮਰਜੈਂਸੀ (ਪੁਲਿਸ, ਫਾਇਰ, ਐਂਬੂਲੈਂਸ)"},
+      "official_url": "https://112.gov.in",
+      "source": "Emergency Response Support System, Government of India",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "ambulance",
+      "number": "108",
+      "group": "emergency",
+      "title": {"en": "Ambulance", "hi": "एम्बुलेंस", "ta": "ஆம்புலன்ஸ்", "pa": "ਐਂਬੂਲੈਂਸ"},
+      "official_url": "https://nhm.gov.in",
+      "source": "National Health Mission (state ambulance services)",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "women",
+      "number": "181",
+      "group": "women",
+      "title": {"en": "Women helpline", "hi": "महिला हेल्पलाइन", "ta": "பெண்கள் உதவி எண்", "pa": "ਮਹਿਲਾ ਹੈਲਪਲਾਈਨ"},
+      "official_url": "https://wcd.gov.in",
+      "source": "Ministry of Women and Child Development",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "eshram",
+      "number": "14434",
+      "group": "work",
+      "title": {"en": "e-Shram helpline (toll-free)", "hi": "ई-श्रम हेल्पलाइन (टोल-फ़्री)", "ta": "இ-ஷ்ரம் உதவி எண் (கட்டணமில்லா)", "pa": "ਈ-ਸ਼੍ਰਮ ਹੈਲਪਲਾਈਨ (ਟੋਲ-ਫ੍ਰੀ)"},
+      "official_url": "https://eshram.gov.in",
+      "source": "Ministry of Labour & Employment, e-Shram portal",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "pmjay",
+      "number": "14555",
+      "group": "health",
+      "title": {"en": "Ayushman Bharat PM-JAY", "hi": "आयुष्मान भारत PM-JAY", "ta": "ஆயுஷ்மான் பாரத் PM-JAY", "pa": "ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ PM-JAY"},
+      "official_url": "https://pmjay.gov.in",
+      "source": "National Health Authority",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "tele_manas",
+      "number": "14416",
+      "group": "health",
+      "title": {"en": "Tele-MANAS mental health support", "hi": "टेली-मानस मानसिक स्वास्थ्य सहायता", "ta": "டெலி-மனஸ் மனநல உதவி", "pa": "ਟੈਲੀ-ਮਾਨਸ ਮਾਨਸਿਕ ਸਿਹਤ ਸਹਾਇਤਾ"},
+      "official_url": "https://telemanas.mohfw.gov.in",
+      "source": "Ministry of Health & Family Welfare",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "cyber_fraud",
+      "number": "1930",
+      "group": "money",
+      "title": {"en": "Cyber fraud / online money fraud", "hi": "साइबर धोखाधड़ी / ऑनलाइन पैसे की ठगी", "ta": "சைபர் மோசடி / ஆன்லைன் பண மோசடி", "pa": "ਸਾਈਬਰ ਧੋਖਾਧੜੀ / ਆਨਲਾਈਨ ਪੈਸੇ ਦੀ ਠੱਗੀ"},
+      "official_url": "https://cybercrime.gov.in",
+      "source": "Indian Cyber Crime Coordination Centre, Ministry of Home Affairs",
+      "verified_on": null,
+      "verified": false
+    }
+  ]
+}

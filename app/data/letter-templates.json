@@ -1,0 +1,141 @@
+{
+  "about": "Stored letter templates. Not legal advice. Hindi, Tamil and Punjabi need human review. Placeholders: {platform} {date} {amount} {name} {worker_id} {today}.",
+  "references": {
+    "payment_delay": ["code_social_security_2020", "cpgrams"],
+    "unfair_deactivation": ["code_social_security_2020", "cpgrams"],
+    "bonus_denial": ["code_social_security_2020", "cpgrams"],
+    "wage_theft": ["code_social_security_2020", "samadhan", "cpgrams"],
+    "explanation_request": ["code_social_security_2020"],
+    "other": ["cpgrams"]
+  },
+  "languages": {
+    "en": {
+      "salutation": "To the Grievance Officer,\n{platform}",
+      "subject": {
+        "payment_delay": "Request to release my delayed payment",
+        "unfair_deactivation": "Request to review the deactivation of my account",
+        "bonus_denial": "Request to pay my incentive",
+        "wage_theft": "Complaint about unpaid wages",
+        "explanation_request": "Request for a written explanation and human review",
+        "other": "Request to resolve my issue"
+      },
+      "issue": {
+        "payment_delay": "I work with {platform}. My payment of {amount}, due on {date}, has not been paid yet.",
+        "unfair_deactivation": "I work with {platform}. My account was deactivated on {date}. I was not given a clear reason, and I believe this is a mistake.",
+        "bonus_denial": "I work with {platform}. I completed the targets for an incentive, but {amount} for {date} was not paid.",
+        "wage_theft": "I worked for {platform} on {date}, but my wages of {amount} have not been paid in full.",
+        "explanation_request": "I work with {platform}. On {date} my account changed (for example a rating drop, fewer tasks or deactivation). I was not told why.",
+        "other": "I work with {platform}. I am facing a problem that started on {date}."
+      },
+      "remedy": {
+        "pay_dues": "I request you to release the pending amount of {amount} as soon as possible.",
+        "reactivate": "I request you to review my case and reactivate my account.",
+        "pay_bonus": "I request you to pay the incentive of {amount}.",
+        "written_explanation": "I request a written explanation of the reasons for this decision.",
+        "human_review": "I request that a person reviews this decision, and that I get a chance to explain my side.",
+        "other": "I request you to look into this and resolve it."
+      },
+      "details_label": "What happened, in my words:",
+      "closing": "Please reply in writing and share a ticket or reference number. I am keeping a copy of this letter.\n\nThank you,\n{name}\nPartner ID: {worker_id}\nDate: {today}",
+      "references_label": "References (please verify on the official website):",
+      "unknown": "[not given]",
+      "review_note": "This draft comes from a template. It is not legal advice. Check every detail before you send it."
+    },
+    "hi": {
+      "salutation": "सेवा में, शिकायत अधिकारी,\n{platform}",
+      "subject": {
+        "payment_delay": "मेरा रुका हुआ भुगतान जारी करने का अनुरोध",
+        "unfair_deactivation": "मेरा खाता बंद करने के फ़ैसले की समीक्षा का अनुरोध",
+        "bonus_denial": "मेरा इंसेंटिव देने का अनुरोध",
+        "wage_theft": "बकाया मज़दूरी के बारे में शिकायत",
+        "explanation_request": "लिखित कारण और इंसान द्वारा समीक्षा का अनुरोध",
+        "other": "मेरी समस्या हल करने का अनुरोध"
+      },
+      "issue": {
+        "payment_delay": "मैं {platform} के साथ काम करता/करती हूँ। मेरा {amount} का भुगतान, जो {date} को मिलना था, अभी तक नहीं मिला है।",
+        "unfair_deactivation": "मैं {platform} के साथ काम करता/करती हूँ। {date} को मेरा खाता बंद कर दिया गया। मुझे साफ़ कारण नहीं बताया गया, और मुझे लगता है यह गलती है।",
+        "bonus_denial": "मैं {platform} के साथ काम करता/करती हूँ। मैंने इंसेंटिव के लक्ष्य पूरे किए, पर {date} का {amount} नहीं मिला।",
+        "wage_theft": "मैंने {date} को {platform} के लिए काम किया, पर मेरी {amount} की मज़दूरी पूरी नहीं मिली।",
+        "explanation_request": "मैं {platform} के साथ काम करता/करती हूँ। {date} को मेरे खाते में बदलाव हुआ (जैसे रेटिंग गिरना, कम काम मिलना या खाता बंद होना)। मुझे कारण नहीं बताया गया।",
+        "other": "मैं {platform} के साथ काम करता/करती हूँ। {date} से मुझे एक समस्या हो रही है।"
+      },
+      "remedy": {
+        "pay_dues": "कृपया {amount} की बकाया राशि जल्द से जल्द जारी करें।",
+        "reactivate": "कृपया मेरे मामले की समीक्षा करें और मेरा खाता फिर से चालू करें।",
+        "pay_bonus": "कृपया {amount} का इंसेंटिव दें।",
+        "written_explanation": "कृपया इस फ़ैसले के कारण लिखकर बताएँ।",
+        "human_review": "कृपया कोई इंसान इस फ़ैसले की समीक्षा करे, और मुझे अपनी बात रखने का मौका मिले।",
+        "other": "कृपया इस पर ध्यान दें और समस्या हल करें।"
+      },
+      "details_label": "क्या हुआ, मेरे शब्दों में:",
+      "closing": "कृपया लिखित में जवाब दें और टिकट या रेफ़रेंस नंबर बताएँ। मैं इस पत्र की एक कॉपी अपने पास रख रहा/रही हूँ।\n\nधन्यवाद,\n{name}\nपार्टनर ID: {worker_id}\nतारीख: {today}",
+      "references_label": "संदर्भ (कृपया सरकारी वेबसाइट पर जाँच लें):",
+      "unknown": "[नहीं दिया]",
+      "review_note": "यह मसौदा एक टेम्पलेट से बना है। यह कानूनी सलाह नहीं है। भेजने से पहले हर जानकारी जाँच लें।"
+    },
+    "ta": {
+      "salutation": "குறைதீர் அலுவலர் அவர்களுக்கு,\n{platform}",
+      "subject": {
+        "payment_delay": "தாமதமான என் பணத்தை வழங்குமாறு கோரிக்கை",
+        "unfair_deactivation": "என் கணக்கு முடக்கப்பட்டதை மறுபரிசீலனை செய்யக் கோரிக்கை",
+        "bonus_denial": "என் ஊக்கத்தொகையை வழங்குமாறு கோரிக்கை",
+        "wage_theft": "வழங்கப்படாத கூலி குறித்த புகார்",
+        "explanation_request": "எழுத்துப்பூர்வ விளக்கம் மற்றும் மனித மறுபரிசீலனைக்கான கோரிக்கை",
+        "other": "என் பிரச்சினையைத் தீர்க்குமாறு கோரிக்கை"
+      },
+      "issue": {
+        "payment_delay": "நான் {platform} உடன் வேலை செய்கிறேன். {date} அன்று வர வேண்டிய என் {amount} பணம் இன்னும் வழங்கப்படவில்லை.",
+        "unfair_deactivation": "நான் {platform} உடன் வேலை செய்கிறேன். {date} அன்று என் கணக்கு முடக்கப்பட்டது. தெளிவான காரணம் சொல்லப்படவில்லை; இது தவறு என்று நம்புகிறேன்.",
+        "bonus_denial": "நான் {platform} உடன் வேலை செய்கிறேன். ஊக்கத்தொகைக்கான இலக்குகளை முடித்தேன், ஆனால் {date} க்கான {amount} வழங்கப்படவில்லை.",
+        "wage_theft": "நான் {date} அன்று {platform} க்காக வேலை செய்தேன், ஆனால் என் {amount} கூலி முழுமையாக வழங்கப்படவில்லை.",
+        "explanation_request": "நான் {platform} உடன் வேலை செய்கிறேன். {date} அன்று என் கணக்கில் மாற்றம் ஏற்பட்டது (மதிப்பீடு குறைவு, குறைந்த வேலை அல்லது முடக்கம் போன்றவை). காரணம் சொல்லப்படவில்லை.",
+        "other": "நான் {platform} உடன் வேலை செய்கிறேன். {date} முதல் ஒரு பிரச்சினையை எதிர்கொள்கிறேன்."
+      },
+      "remedy": {
+        "pay_dues": "நிலுவையில் உள்ள {amount} தொகையை விரைவில் வழங்குமாறு கேட்டுக்கொள்கிறேன்.",
+        "reactivate": "என் வழக்கை மறுபரிசீலனை செய்து என் கணக்கை மீண்டும் இயக்குமாறு கேட்டுக்கொள்கிறேன்.",
+        "pay_bonus": "{amount} ஊக்கத்தொகையை வழங்குமாறு கேட்டுக்கொள்கிறேன்.",
+        "written_explanation": "இந்த முடிவுக்கான காரணங்களை எழுத்துப்பூர்வமாகத் தருமாறு கேட்டுக்கொள்கிறேன்.",
+        "human_review": "இந்த முடிவை ஒரு மனிதர் மறுபரிசீலனை செய்யவும், என் தரப்பை விளக்க வாய்ப்பு தரவும் கேட்டுக்கொள்கிறேன்.",
+        "other": "இதைக் கவனித்துத் தீர்க்குமாறு கேட்டுக்கொள்கிறேன்."
+      },
+      "details_label": "நடந்தது, என் வார்த்தைகளில்:",
+      "closing": "தயவுசெய்து எழுத்துப்பூர்வமாகப் பதில் அளித்து டிக்கெட் அல்லது குறிப்பு எண்ணைப் பகிருங்கள். இந்தக் கடிதத்தின் நகலை நான் வைத்திருக்கிறேன்.\n\nநன்றி,\n{name}\nபார்ட்னர் ID: {worker_id}\nதேதி: {today}",
+      "references_label": "குறிப்புகள் (அதிகாரப்பூர்வ இணையதளத்தில் சரிபாருங்கள்):",
+      "unknown": "[கொடுக்கப்படவில்லை]",
+      "review_note": "இந்த வரைவு ஒரு மாதிரியிலிருந்து உருவானது. இது சட்ட ஆலோசனை அல்ல. அனுப்பும் முன் ஒவ்வொரு விவரத்தையும் சரிபாருங்கள்."
+    },
+    "pa": {
+      "salutation": "ਸੇਵਾ ਵਿਖੇ, ਸ਼ਿਕਾਇਤ ਅਧਿਕਾਰੀ,\n{platform}",
+      "subject": {
+        "payment_delay": "ਮੇਰਾ ਰੁਕਿਆ ਹੋਇਆ ਭੁਗਤਾਨ ਜਾਰੀ ਕਰਨ ਦੀ ਬੇਨਤੀ",
+        "unfair_deactivation": "ਮੇਰਾ ਖਾਤਾ ਬੰਦ ਕਰਨ ਦੇ ਫ਼ੈਸਲੇ ਦੀ ਸਮੀਖਿਆ ਦੀ ਬੇਨਤੀ",
+        "bonus_denial": "ਮੇਰਾ ਇੰਸੈਂਟਿਵ ਦੇਣ ਦੀ ਬੇਨਤੀ",
+        "wage_theft": "ਬਕਾਇਆ ਮਜ਼ਦੂਰੀ ਬਾਰੇ ਸ਼ਿਕਾਇਤ",
+        "explanation_request": "ਲਿਖਤੀ ਕਾਰਨ ਅਤੇ ਇਨਸਾਨ ਵੱਲੋਂ ਸਮੀਖਿਆ ਦੀ ਬੇਨਤੀ",
+        "other": "ਮੇਰੀ ਸਮੱਸਿਆ ਹੱਲ ਕਰਨ ਦੀ ਬੇਨਤੀ"
+      },
+      "issue": {
+        "payment_delay": "ਮੈਂ {platform} ਨਾਲ ਕੰਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ। ਮੇਰਾ {amount} ਦਾ ਭੁਗਤਾਨ, ਜੋ {date} ਨੂੰ ਮਿਲਣਾ ਸੀ, ਅਜੇ ਤੱਕ ਨਹੀਂ ਮਿਲਿਆ।",
+        "unfair_deactivation": "ਮੈਂ {platform} ਨਾਲ ਕੰਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ। {date} ਨੂੰ ਮੇਰਾ ਖਾਤਾ ਬੰਦ ਕਰ ਦਿੱਤਾ ਗਿਆ। ਮੈਨੂੰ ਸਾਫ਼ ਕਾਰਨ ਨਹੀਂ ਦੱਸਿਆ ਗਿਆ, ਅਤੇ ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਇਹ ਗਲਤੀ ਹੈ।",
+        "bonus_denial": "ਮੈਂ {platform} ਨਾਲ ਕੰਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ। ਮੈਂ ਇੰਸੈਂਟਿਵ ਦੇ ਟੀਚੇ ਪੂਰੇ ਕੀਤੇ, ਪਰ {date} ਦਾ {amount} ਨਹੀਂ ਮਿਲਿਆ।",
+        "wage_theft": "ਮੈਂ {date} ਨੂੰ {platform} ਲਈ ਕੰਮ ਕੀਤਾ, ਪਰ ਮੇਰੀ {amount} ਦੀ ਮਜ਼ਦੂਰੀ ਪੂਰੀ ਨਹੀਂ ਮਿਲੀ।",
+        "explanation_request": "ਮੈਂ {platform} ਨਾਲ ਕੰਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ। {date} ਨੂੰ ਮੇਰੇ ਖਾਤੇ ਵਿੱਚ ਬਦਲਾਅ ਹੋਇਆ (ਜਿਵੇਂ ਰੇਟਿੰਗ ਘਟਣਾ, ਘੱਟ ਕੰਮ ਮਿਲਣਾ ਜਾਂ ਖਾਤਾ ਬੰਦ ਹੋਣਾ)। ਮੈਨੂੰ ਕਾਰਨ ਨਹੀਂ ਦੱਸਿਆ ਗਿਆ।",
+        "other": "ਮੈਂ {platform} ਨਾਲ ਕੰਮ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ। {date} ਤੋਂ ਮੈਨੂੰ ਇੱਕ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ।"
+      },
+      "remedy": {
+        "pay_dues": "ਕਿਰਪਾ ਕਰਕੇ {amount} ਦੀ ਬਕਾਇਆ ਰਕਮ ਜਲਦੀ ਤੋਂ ਜਲਦੀ ਜਾਰੀ ਕਰੋ।",
+        "reactivate": "ਕਿਰਪਾ ਕਰਕੇ ਮੇਰੇ ਮਾਮਲੇ ਦੀ ਸਮੀਖਿਆ ਕਰੋ ਅਤੇ ਮੇਰਾ ਖਾਤਾ ਮੁੜ ਚਾਲੂ ਕਰੋ।",
+        "pay_bonus": "ਕਿਰਪਾ ਕਰਕੇ {amount} ਦਾ ਇੰਸੈਂਟਿਵ ਦਿਓ।",
+        "written_explanation": "ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਫ਼ੈਸਲੇ ਦੇ ਕਾਰਨ ਲਿਖ ਕੇ ਦੱਸੋ।",
+        "human_review": "ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਇਨਸਾਨ ਇਸ ਫ਼ੈਸਲੇ ਦੀ ਸਮੀਖਿਆ ਕਰੇ, ਅਤੇ ਮੈਨੂੰ ਆਪਣੀ ਗੱਲ ਰੱਖਣ ਦਾ ਮੌਕਾ ਮਿਲੇ।",
+        "other": "ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਵੱਲ ਧਿਆਨ ਦਿਓ ਅਤੇ ਸਮੱਸਿਆ ਹੱਲ ਕਰੋ।"
+      },
+      "details_label": "ਕੀ ਹੋਇਆ, ਮੇਰੇ ਸ਼ਬਦਾਂ ਵਿੱਚ:",
+      "closing": "ਕਿਰਪਾ ਕਰਕੇ ਲਿਖਤੀ ਜਵਾਬ ਦਿਓ ਅਤੇ ਟਿਕਟ ਜਾਂ ਰੈਫਰੈਂਸ ਨੰਬਰ ਦੱਸੋ। ਮੈਂ ਇਸ ਪੱਤਰ ਦੀ ਕਾਪੀ ਆਪਣੇ ਕੋਲ ਰੱਖ ਰਿਹਾ/ਰਹੀ ਹਾਂ।\n\nਧੰਨਵਾਦ,\n{name}\nਪਾਰਟਨਰ ID: {worker_id}\nਤਾਰੀਖ: {today}",
+      "references_label": "ਹਵਾਲੇ (ਕਿਰਪਾ ਕਰਕੇ ਸਰਕਾਰੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਜਾਂਚ ਲਓ):",
+      "unknown": "[ਨਹੀਂ ਦਿੱਤਾ]",
+      "review_note": "ਇਹ ਖਰੜਾ ਇੱਕ ਟੈਂਪਲੇਟ ਤੋਂ ਬਣਿਆ ਹੈ। ਇਹ ਕਾਨੂੰਨੀ ਸਲਾਹ ਨਹੀਂ ਹੈ। ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਹਰ ਜਾਣਕਾਰੀ ਜਾਂਚ ਲਓ।"
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "about": "Welfare schemes and rules. Every entry must be re-verified on the official website. Hindi, Tamil and Punjabi text needs human review.",
+  "entries": [
+    {
+      "id": "eshram",
+      "kind": "scheme",
+      "title": {
+        "en": "e-Shram card (free registration)",
+        "hi": "ई-श्रम कार्ड (मुफ़्त पंजीकरण)",
+        "ta": "இ-ஷ்ரம் அட்டை (இலவசப் பதிவு)",
+        "pa": "ਈ-ਸ਼੍ਰਮ ਕਾਰਡ (ਮੁਫ਼ਤ ਰਜਿਸਟ੍ਰੇਸ਼ਨ)"
+      },
+      "summary": {
+        "en": "A national ID for unorganised workers, including gig and platform workers. It helps you reach government schemes.",
+        "hi": "असंगठित कामगारों के लिए राष्ट्रीय पहचान, जिसमें गिग और प्लेटफ़ॉर्म वर्कर भी शामिल हैं। इससे सरकारी योजनाओं तक पहुँचने में मदद मिलती है।",
+        "ta": "அமைப்புசாரா தொழிலாளர்களுக்கான தேசிய அடையாளம், கிக் மற்றும் தளப்பணியாளர்கள் உட்பட. அரசுத் திட்டங்களைப் பெற இது உதவுகிறது.",
+        "pa": "ਅਸੰਗਠਿਤ ਕਾਮਿਆਂ ਲਈ ਰਾਸ਼ਟਰੀ ਪਛਾਣ, ਜਿਸ ਵਿੱਚ ਗਿਗ ਅਤੇ ਪਲੇਟਫਾਰਮ ਵਰਕਰ ਵੀ ਸ਼ਾਮਲ ਹਨ। ਇਸ ਨਾਲ ਸਰਕਾਰੀ ਯੋਜਨਾਵਾਂ ਤੱਕ ਪਹੁੰਚਣ ਵਿੱਚ ਮਦਦ ਮਿਲਦੀ ਹੈ।"
+      },
+      "eligibility": {
+        "en": "Age 16 to 59. Not a member of EPFO, ESIC or NPS.",
+        "hi": "उम्र 16 से 59 साल। EPFO, ESIC या NPS के सदस्य न हों।",
+        "ta": "வயது 16 முதல் 59. EPFO, ESIC அல்லது NPS உறுப்பினராக இருக்கக் கூடாது.",
+        "pa": "ਉਮਰ 16 ਤੋਂ 59 ਸਾਲ। EPFO, ESIC ਜਾਂ NPS ਦੇ ਮੈਂਬਰ ਨਾ ਹੋਵੋ।"
+      },
+      "steps": {
+        "en": [
+          "Keep ready: Aadhaar number, mobile number linked to Aadhaar, and a savings bank account with IFSC code.",
+          "Open eshram.gov.in and choose \"Register on e-Shram\".",
+          "Enter your Aadhaar-linked mobile number and confirm with the OTP.",
+          "Fill your details: name, address, type of work (choose gig or platform worker) and bank account.",
+          "Submit and download your e-Shram (UAN) card.",
+          "Registration is free. Do not pay any agent. Need help? Call 14434."
+        ],
+        "hi": [
+          "ये तैयार रखें: आधार नंबर, आधार से जुड़ा मोबाइल नंबर, और IFSC कोड वाला बचत बैंक खाता।",
+          "eshram.gov.in खोलें और \"Register on e-Shram\" चुनें।",
+          "आधार से जुड़ा मोबाइल नंबर डालें और OTP से पुष्टि करें।",
+          "अपनी जानकारी भरें: नाम, पता, काम का प्रकार (गिग या प्लेटफ़ॉर्म वर्कर चुनें) और बैंक खाता।",
+          "जमा करें और अपना ई-श्रम (UAN) कार्ड डाउनलोड करें।",
+          "पंजीकरण मुफ़्त है। किसी एजेंट को पैसे न दें। मदद चाहिए? 14434 पर कॉल करें।"
+        ],
+        "ta": [
+          "இவற்றைத் தயாராக வைத்திருங்கள்: ஆதார் எண், ஆதாருடன் இணைந்த மொபைல் எண், IFSC குறியீடுடன் சேமிப்பு வங்கிக் கணக்கு.",
+          "eshram.gov.in ஐத் திறந்து \"Register on e-Shram\" என்பதைத் தேர்ந்தெடுக்கவும்.",
+          "ஆதாருடன் இணைந்த மொபைல் எண்ணை உள்ளிட்டு OTP மூலம் உறுதிசெய்யவும்.",
+          "உங்கள் விவரங்களை நிரப்பவும்: பெயர், முகவரி, வேலை வகை (கிக் அல்லது தளப்பணியாளர்கள்) மற்றும் வங்கிக் கணக்கு.",
+          "சமர்ப்பித்து உங்கள் இ-ஷ்ரம் (UAN) அட்டையைப் பதிவிறக்கவும்.",
+          "பதிவு இலவசம். எந்த முகவருக்கும் பணம் தர வேண்டாம். உதவி வேண்டுமா? 14434 ஐ அழைக்கவும்."
+        ],
+        "pa": [
+          "ਇਹ ਤਿਆਰ ਰੱਖੋ: ਆਧਾਰ ਨੰਬਰ, ਆਧਾਰ ਨਾਲ ਜੁੜਿਆ ਮੋਬਾਈਲ ਨੰਬਰ, ਅਤੇ IFSC ਕੋਡ ਵਾਲਾ ਬਚਤ ਬੈਂਕ ਖਾਤਾ।",
+          "eshram.gov.in ਖੋਲ੍ਹੋ ਅਤੇ \"Register on e-Shram\" ਚੁਣੋ।",
+          "ਆਧਾਰ ਨਾਲ ਜੁੜਿਆ ਮੋਬਾਈਲ ਨੰਬਰ ਪਾਓ ਅਤੇ OTP ਨਾਲ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "ਆਪਣੀ ਜਾਣਕਾਰੀ ਭਰੋ: ਨਾਮ, ਪਤਾ, ਕੰਮ ਦੀ ਕਿਸਮ (ਗਿਗ ਜਾਂ ਪਲੇਟਫਾਰਮ ਵਰਕਰ ਚੁਣੋ) ਅਤੇ ਬੈਂਕ ਖਾਤਾ।",
+          "ਜਮ੍ਹਾਂ ਕਰੋ ਅਤੇ ਆਪਣਾ ਈ-ਸ਼੍ਰਮ (UAN) ਕਾਰਡ ਡਾਊਨਲੋਡ ਕਰੋ।",
+          "ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਮੁਫ਼ਤ ਹੈ। ਕਿਸੇ ਏਜੰਟ ਨੂੰ ਪੈਸੇ ਨਾ ਦਿਓ। ਮਦਦ ਚਾਹੀਦੀ ਹੈ? 14434 'ਤੇ ਕਾਲ ਕਰੋ।"
+        ]
+      },
+      "official_url": "https://eshram.gov.in",
+      "source": "Ministry of Labour & Employment, e-Shram portal",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "pmjay",
+      "kind": "scheme",
+      "title": {
+        "en": "Ayushman Bharat PM-JAY (hospital cover)",
+        "hi": "आयुष्मान भारत PM-JAY (अस्पताल इलाज कवर)",
+        "ta": "ஆயுஷ்மான் பாரத் PM-JAY (மருத்துவமனை சிகிச்சை காப்பீடு)",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ PM-JAY (ਹਸਪਤਾਲ ਇਲਾਜ ਕਵਰ)"
+      },
+      "summary": {
+        "en": "Cashless hospital treatment of up to ₹5 lakh per family per year at listed (empanelled) hospitals, for people who are eligible.",
+        "hi": "पात्र लोगों के लिए सूचीबद्ध अस्पतालों में प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस इलाज।",
+        "ta": "தகுதியானவர்களுக்கு, பட்டியலிடப்பட்ட மருத்துவமனைகளில் ஒரு குடும்பத்துக்கு ஆண்டுக்கு ₹5 லட்சம் வரை பணமில்லா சிகிச்சை.",
+        "pa": "ਯੋਗ ਲੋਕਾਂ ਲਈ ਸੂਚੀਬੱਧ ਹਸਪਤਾਲਾਂ ਵਿੱਚ ਪ੍ਰਤੀ ਪਰਿਵਾਰ ਪ੍ਰਤੀ ਸਾਲ ₹5 ਲੱਖ ਤੱਕ ਕੈਸ਼ਲੈੱਸ ਇਲਾਜ।"
+      },
+      "eligibility": {
+        "en": "Eligibility follows official lists. Check your name on the official website or call 14555.",
+        "hi": "पात्रता सरकारी सूची से तय होती है। सरकारी वेबसाइट पर अपना नाम देखें या 14555 पर कॉल करें।",
+        "ta": "தகுதி அதிகாரப்பூர்வ பட்டியலின்படி. அதிகாரப்பூர்வ இணையதளத்தில் உங்கள் பெயரைப் பாருங்கள் அல்லது 14555 ஐ அழைக்கவும்.",
+        "pa": "ਯੋਗਤਾ ਸਰਕਾਰੀ ਸੂਚੀ ਤੋਂ ਤੈਅ ਹੁੰਦੀ ਹੈ। ਸਰਕਾਰੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਆਪਣਾ ਨਾਮ ਦੇਖੋ ਜਾਂ 14555 'ਤੇ ਕਾਲ ਕਰੋ।"
+      },
+      "steps": {
+        "en": [
+          "Open beneficiary.nha.gov.in and check if your name is on the list.",
+          "If eligible, make your Ayushman card with Aadhaar and OTP.",
+          "At a listed hospital, go to the Ayushman Mitra desk with your card and Aadhaar.",
+          "Treatment is cashless at listed hospitals. Ask for a receipt for everything.",
+          "Questions? Call the PM-JAY helpline 14555."
+        ],
+        "hi": [
+          "beneficiary.nha.gov.in खोलें और देखें कि आपका नाम सूची में है या नहीं।",
+          "पात्र हैं तो आधार और OTP से अपना आयुष्मान कार्ड बनाएँ।",
+          "सूचीबद्ध अस्पताल में कार्ड और आधार लेकर आयुष्मान मित्र डेस्क पर जाएँ।",
+          "सूचीबद्ध अस्पतालों में इलाज कैशलेस है। हर चीज़ की रसीद माँगें।",
+          "सवाल हैं? PM-JAY हेल्पलाइन 14555 पर कॉल करें।"
+        ],
+        "ta": [
+          "beneficiary.nha.gov.in ஐத் திறந்து உங்கள் பெயர் பட்டியலில் உள்ளதா எனப் பாருங்கள்.",
+          "தகுதி இருந்தால் ஆதார் மற்றும் OTP மூலம் ஆயுஷ்மான் அட்டை பெறுங்கள்.",
+          "பட்டியலிடப்பட்ட மருத்துவமனையில் அட்டை மற்றும் ஆதாருடன் ஆயுஷ்மான் மித்ரா மேசைக்குச் செல்லுங்கள்.",
+          "பட்டியலிடப்பட்ட மருத்துவமனைகளில் சிகிச்சை பணமில்லாதது. எல்லாவற்றுக்கும் ரசீது கேளுங்கள்.",
+          "கேள்விகளா? PM-JAY உதவி எண் 14555 ஐ அழைக்கவும்."
+        ],
+        "pa": [
+          "beneficiary.nha.gov.in ਖੋਲ੍ਹੋ ਅਤੇ ਦੇਖੋ ਕਿ ਤੁਹਾਡਾ ਨਾਮ ਸੂਚੀ ਵਿੱਚ ਹੈ ਜਾਂ ਨਹੀਂ।",
+          "ਜੇ ਯੋਗ ਹੋ ਤਾਂ ਆਧਾਰ ਅਤੇ OTP ਨਾਲ ਆਪਣਾ ਆਯੁਸ਼ਮਾਨ ਕਾਰਡ ਬਣਾਓ।",
+          "ਸੂਚੀਬੱਧ ਹਸਪਤਾਲ ਵਿੱਚ ਕਾਰਡ ਅਤੇ ਆਧਾਰ ਲੈ ਕੇ ਆਯੁਸ਼ਮਾਨ ਮਿੱਤਰ ਡੈਸਕ 'ਤੇ ਜਾਓ।",
+          "ਸੂਚੀਬੱਧ ਹਸਪਤਾਲਾਂ ਵਿੱਚ ਇਲਾਜ ਕੈਸ਼ਲੈੱਸ ਹੈ। ਹਰ ਚੀਜ਼ ਦੀ ਰਸੀਦ ਮੰਗੋ।",
+          "ਸਵਾਲ ਹਨ? PM-JAY ਹੈਲਪਲਾਈਨ 14555 'ਤੇ ਕਾਲ ਕਰੋ।"
+        ]
+      },
+      "official_url": "https://pmjay.gov.in",
+      "source": "National Health Authority, Ayushman Bharat PM-JAY",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "pmsby",
+      "kind": "scheme",
+      "title": {
+        "en": "PMSBY accident insurance",
+        "hi": "PMSBY दुर्घटना बीमा",
+        "ta": "PMSBY விபத்துக் காப்பீடு",
+        "pa": "PMSBY ਦੁਰਘਟਨਾ ਬੀਮਾ"
+      },
+      "summary": {
+        "en": "Accident cover of ₹2 lakh for death or full disability, for a premium of ₹20 a year, through your bank.",
+        "hi": "मृत्यु या पूर्ण विकलांगता पर ₹2 लाख का दुर्घटना कवर, बैंक के ज़रिए ₹20 सालाना प्रीमियम पर।",
+        "ta": "இறப்பு அல்லது முழு ஊனத்துக்கு ₹2 லட்சம் விபத்துக் காப்பீடு, வங்கி மூலம் ஆண்டுக்கு ₹20 கட்டணம்.",
+        "pa": "ਮੌਤ ਜਾਂ ਪੂਰੀ ਅਪੰਗਤਾ ਲਈ ₹2 ਲੱਖ ਦਾ ਦੁਰਘਟਨਾ ਕਵਰ, ਬੈਂਕ ਰਾਹੀਂ ₹20 ਸਾਲਾਨਾ ਪ੍ਰੀਮੀਅਮ 'ਤੇ।"
+      },
+      "eligibility": {
+        "en": "Age 18 to 70 with a savings bank account.",
+        "hi": "उम्र 18 से 70 साल, बचत बैंक खाता हो।",
+        "ta": "வயது 18 முதல் 70, சேமிப்பு வங்கிக் கணக்கு இருக்க வேண்டும்.",
+        "pa": "ਉਮਰ 18 ਤੋਂ 70 ਸਾਲ, ਬਚਤ ਬੈਂਕ ਖਾਤਾ ਹੋਵੇ।"
+      },
+      "steps": {
+        "en": [
+          "Visit your bank branch or use net banking.",
+          "Ask to join PMSBY and fill the short form.",
+          "Allow auto-debit of the yearly premium from your savings account.",
+          "Add a nominee and keep the acknowledgement slip safe."
+        ],
+        "hi": [
+          "अपनी बैंक शाखा जाएँ या नेट बैंकिंग इस्तेमाल करें।",
+          "PMSBY में जुड़ने के लिए कहें और छोटा फ़ॉर्म भरें।",
+          "बचत खाते से सालाना प्रीमियम का ऑटो-डेबिट मंज़ूर करें।",
+          "नॉमिनी जोड़ें और पावती पर्ची संभाल कर रखें।"
+        ],
+        "ta": [
+          "உங்கள் வங்கிக் கிளைக்குச் செல்லுங்கள் அல்லது நெட் பேங்கிங் பயன்படுத்துங்கள்.",
+          "PMSBY இல் சேரக் கேட்டு சிறிய படிவத்தை நிரப்புங்கள்.",
+          "சேமிப்புக் கணக்கிலிருந்து ஆண்டுக் கட்டணம் தானாகப் பிடிக்க அனுமதியுங்கள்.",
+          "நாமினியைச் சேர்த்து ஒப்புகைச் சீட்டைப் பத்திரமாக வையுங்கள்."
+        ],
+        "pa": [
+          "ਆਪਣੀ ਬੈਂਕ ਸ਼ਾਖਾ ਜਾਓ ਜਾਂ ਨੈੱਟ ਬੈਂਕਿੰਗ ਵਰਤੋ।",
+          "PMSBY ਵਿੱਚ ਜੁੜਨ ਲਈ ਕਹੋ ਅਤੇ ਛੋਟਾ ਫਾਰਮ ਭਰੋ।",
+          "ਬਚਤ ਖਾਤੇ ਤੋਂ ਸਾਲਾਨਾ ਪ੍ਰੀਮੀਅਮ ਦਾ ਆਟੋ-ਡੈਬਿਟ ਮਨਜ਼ੂਰ ਕਰੋ।",
+          "ਨੌਮਿਨੀ ਜੋੜੋ ਅਤੇ ਰਸੀਦ ਪਰਚੀ ਸੰਭਾਲ ਕੇ ਰੱਖੋ।"
+        ]
+      },
+      "official_url": "https://jansuraksha.gov.in",
+      "source": "Department of Financial Services, Jan Suraksha portal",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "pmsby_claim",
+      "kind": "claim",
+      "title": {
+        "en": "Accident claim checklist (PMSBY)",
+        "hi": "दुर्घटना क्लेम चेकलिस्ट (PMSBY)",
+        "ta": "விபத்து கோரிக்கை சரிபார்ப்புப் பட்டியல் (PMSBY)",
+        "pa": "ਦੁਰਘਟਨਾ ਕਲੇਮ ਚੈੱਕਲਿਸਟ (PMSBY)"
+      },
+      "summary": {
+        "en": "If you or a family member joined PMSBY and had an accident, collect these papers and contact the bank.",
+        "hi": "अगर आप या परिवार का सदस्य PMSBY में जुड़ा था और दुर्घटना हुई, तो ये कागज़ जुटाएँ और बैंक से संपर्क करें।",
+        "ta": "நீங்கள் அல்லது குடும்ப உறுப்பினர் PMSBY இல் சேர்ந்து விபத்து நடந்தால், இந்த ஆவணங்களைச் சேகரித்து வங்கியைத் தொடர்புகொள்ளுங்கள்.",
+        "pa": "ਜੇ ਤੁਸੀਂ ਜਾਂ ਪਰਿਵਾਰ ਦਾ ਮੈਂਬਰ PMSBY ਵਿੱਚ ਜੁੜਿਆ ਸੀ ਅਤੇ ਦੁਰਘਟਨਾ ਹੋਈ, ਤਾਂ ਇਹ ਕਾਗਜ਼ ਇਕੱਠੇ ਕਰੋ ਅਤੇ ਬੈਂਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+      },
+      "steps": {
+        "en": [
+          "Get medical help first. Call 108 for an ambulance.",
+          "Report the accident to the police and keep a copy of the FIR.",
+          "Keep hospital papers, bills and the discharge summary.",
+          "Take photos of the place and your vehicle, if safe.",
+          "Contact the bank where you joined PMSBY and ask for the claim form.",
+          "Submit the form with copies of these papers. Keep a receipt."
+        ],
+        "hi": [
+          "पहले इलाज करवाएँ। एम्बुलेंस के लिए 108 पर कॉल करें।",
+          "पुलिस को दुर्घटना की सूचना दें और FIR की कॉपी रखें।",
+          "अस्पताल के कागज़, बिल और डिस्चार्ज समरी संभालें।",
+          "सुरक्षित हो तो जगह और गाड़ी की फ़ोटो लें।",
+          "जिस बैंक से PMSBY लिया था, वहाँ क्लेम फ़ॉर्म माँगें।",
+          "इन कागज़ों की कॉपी के साथ फ़ॉर्म जमा करें। रसीद रखें।"
+        ],
+        "ta": [
+          "முதலில் சிகிச்சை பெறுங்கள். ஆம்புலன்ஸுக்கு 108 ஐ அழைக்கவும்.",
+          "காவல்துறையிடம் விபத்தைத் தெரிவித்து FIR நகலை வையுங்கள்.",
+          "மருத்துவமனை ஆவணங்கள், பில்கள், டிஸ்சார்ஜ் சுருக்கம் ஆகியவற்றை வையுங்கள்.",
+          "பாதுகாப்பாக இருந்தால் இடம் மற்றும் வாகனத்தைப் படம் எடுங்கள்.",
+          "PMSBY இல் சேர்ந்த வங்கியில் கோரிக்கைப் படிவம் கேளுங்கள்.",
+          "இந்த ஆவண நகல்களுடன் படிவத்தைச் சமர்ப்பியுங்கள். ரசீது வையுங்கள்."
+        ],
+        "pa": [
+          "ਪਹਿਲਾਂ ਇਲਾਜ ਕਰਵਾਓ। ਐਂਬੂਲੈਂਸ ਲਈ 108 'ਤੇ ਕਾਲ ਕਰੋ।",
+          "ਪੁਲਿਸ ਨੂੰ ਦੁਰਘਟਨਾ ਦੀ ਸੂਚਨਾ ਦਿਓ ਅਤੇ FIR ਦੀ ਕਾਪੀ ਰੱਖੋ।",
+          "ਹਸਪਤਾਲ ਦੇ ਕਾਗਜ਼, ਬਿੱਲ ਅਤੇ ਡਿਸਚਾਰਜ ਸਮਰੀ ਸੰਭਾਲੋ।",
+          "ਜੇ ਸੁਰੱਖਿਅਤ ਹੋਵੇ ਤਾਂ ਥਾਂ ਅਤੇ ਗੱਡੀ ਦੀਆਂ ਫੋਟੋਆਂ ਲਓ।",
+          "ਜਿਸ ਬੈਂਕ ਤੋਂ PMSBY ਲਿਆ ਸੀ, ਉੱਥੇ ਕਲੇਮ ਫਾਰਮ ਮੰਗੋ।",
+          "ਇਨ੍ਹਾਂ ਕਾਗਜ਼ਾਂ ਦੀਆਂ ਕਾਪੀਆਂ ਨਾਲ ਫਾਰਮ ਜਮ੍ਹਾਂ ਕਰੋ। ਰਸੀਦ ਰੱਖੋ।"
+        ]
+      },
+      "official_url": "https://jansuraksha.gov.in",
+      "source": "Department of Financial Services, Jan Suraksha portal",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "gig_engagement_rule",
+      "kind": "rule",
+      "title": {
+        "en": "Engagement days for gig worker social security (draft rule)",
+        "hi": "गिग वर्कर सामाजिक सुरक्षा के लिए काम के दिन (मसौदा नियम)",
+        "ta": "கிக் தொழிலாளர் சமூகப் பாதுகாப்புக்கான வேலை நாட்கள் (வரைவு விதி)",
+        "pa": "ਗਿਗ ਵਰਕਰ ਸਮਾਜਿਕ ਸੁਰੱਖਿਆ ਲਈ ਕੰਮ ਦੇ ਦਿਨ (ਖਰੜਾ ਨਿਯਮ)"
+      },
+      "summary": {
+        "en": "Draft rules under the Code on Social Security, 2020 talk about 90 days with one platform, or 120 days across platforms, in a financial year. Check the latest rules on the official portal.",
+        "hi": "सामाजिक सुरक्षा संहिता, 2020 के मसौदा नियमों में एक वित्त वर्ष में एक प्लेटफ़ॉर्म के साथ 90 दिन, या कई प्लेटफ़ॉर्म पर 120 दिन की बात है। सरकारी पोर्टल पर नए नियम देखें।",
+        "ta": "சமூகப் பாதுகாப்புச் சட்டம், 2020 இன் வரைவு விதிகள், ஒரு நிதியாண்டில் ஒரு தளத்துடன் 90 நாட்கள் அல்லது பல தளங்களில் 120 நாட்கள் பற்றிப் பேசுகின்றன. அதிகாரப்பூர்வ தளத்தில் சமீபத்திய விதிகளைப் பாருங்கள்.",
+        "pa": "ਸਮਾਜਿਕ ਸੁਰੱਖਿਆ ਕੋਡ, 2020 ਦੇ ਖਰੜਾ ਨਿਯਮਾਂ ਵਿੱਚ ਇੱਕ ਵਿੱਤੀ ਸਾਲ ਵਿੱਚ ਇੱਕ ਪਲੇਟਫਾਰਮ ਨਾਲ 90 ਦਿਨ, ਜਾਂ ਕਈ ਪਲੇਟਫਾਰਮਾਂ 'ਤੇ 120 ਦਿਨ ਦੀ ਗੱਲ ਹੈ। ਸਰਕਾਰੀ ਪੋਰਟਲ 'ਤੇ ਨਵੇਂ ਨਿਯਮ ਦੇਖੋ।"
+      },
+      "steps": {
+        "en": [],
+        "hi": [],
+        "ta": [],
+        "pa": []
+      },
+      "engagement": {
+        "single_days": 90,
+        "multi_days": 120
+      },
+      "official_url": "https://labour.gov.in",
+      "source": "Ministry of Labour & Employment, draft rules under the Code on Social Security, 2020",
+      "verified_on": null,
+      "verified": false
+    }
+  ]
+}

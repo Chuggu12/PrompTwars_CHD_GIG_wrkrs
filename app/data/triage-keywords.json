@@ -1,0 +1,200 @@
+{
+  "about": "Deterministic Fix-It triage. Keywords are lower-case substrings per language. Longer phrases score higher. Hindi, Tamil and Punjabi need human review.",
+  "categories": {
+    "ALERTS_NOISY": {
+      "severity": "low",
+      "actions": ["reduce_alert_frequency", "enable_quiet_mode"],
+      "keywords": {
+        "en": ["too many notifications", "too many alerts", "notification", "alerts", "alert", "annoying", "stop messages", "too many messages", "disturb"],
+        "hi": ["बहुत ज़्यादा सूचना", "सूचनाएँ", "सूचना", "नोटिफिकेशन", "अलर्ट", "परेशान", "मैसेज बंद"],
+        "ta": ["அதிக அறிவிப்புகள்", "அறிவிப்புகள்", "அறிவிப்பு", "எச்சரிக்கைகள்", "தொந்தரவு", "நோட்டிபிகேஷன்"],
+        "pa": ["ਬਹੁਤ ਸੂਚਨਾਵਾਂ", "ਸੂਚਨਾਵਾਂ", "ਸੂਚਨਾ", "ਨੋਟੀਫਿਕੇਸ਼ਨ", "ਅਲਰਟ", "ਪਰੇਸ਼ਾਨ"]
+      },
+      "message": {
+        "en": "I lowered alerts to 1 a day and turned on quiet mode. You can undo this.",
+        "hi": "मैंने अलर्ट दिन में 1 कर दिए और शांत मोड चालू किया। आप इसे वापस बदल सकते हैं।",
+        "ta": "எச்சரிக்கைகளை நாளுக்கு 1 ஆகக் குறைத்து அமைதி முறையை இயக்கினேன். இதை மாற்றலாம்.",
+        "pa": "ਮੈਂ ਅਲਰਟ ਦਿਨ ਵਿੱਚ 1 ਕਰ ਦਿੱਤੇ ਅਤੇ ਸ਼ਾਂਤ ਮੋਡ ਚਾਲੂ ਕੀਤਾ। ਤੁਸੀਂ ਇਸਨੂੰ ਵਾਪਸ ਬਦਲ ਸਕਦੇ ਹੋ।"
+      }
+    },
+    "TEXT_READABILITY": {
+      "severity": "low",
+      "actions": ["set_font_scale"],
+      "keywords": {
+        "en": ["text is too small", "text too small", "small text", "font", "letters are small", "bigger text", "tiny", "zoom", "hard to see words"],
+        "hi": ["अक्षर बहुत छोटे", "छोटे अक्षर", "अक्षर छोटे", "छोटा लिखा", "बड़ा करो", "फ़ॉन्ट", "फॉन्ट"],
+        "ta": ["எழுத்து மிகவும் சிறியது", "எழுத்து சிறியது", "சிறிய எழுத்து", "பெரிதாக்கு", "எழுத்துரு"],
+        "pa": ["ਅੱਖਰ ਬਹੁਤ ਛੋਟੇ", "ਛੋਟੇ ਅੱਖਰ", "ਅੱਖਰ ਛੋਟੇ", "ਵੱਡਾ ਕਰੋ", "ਫੌਂਟ"]
+      },
+      "message": {
+        "en": "I made the text bigger.",
+        "hi": "मैंने अक्षर बड़े कर दिए।",
+        "ta": "எழுத்துகளைப் பெரிதாக்கினேன்.",
+        "pa": "ਮੈਂ ਅੱਖਰ ਵੱਡੇ ਕਰ ਦਿੱਤੇ।"
+      }
+    },
+    "LANGUAGE": {
+      "severity": "low",
+      "actions": ["set_language", "set_reading_level", "set_read_aloud_default"],
+      "keywords": {
+        "en": ["can't read hindi", "cannot read hindi", "can't read tamil", "can't read punjabi", "can't understand language", "language", "hindi", "tamil", "punjabi", "english", "difficult words", "hard words"],
+        "hi": ["हिंदी ठीक से", "हिन्दी", "हिंदी", "भाषा", "समझ नहीं आ", "कठिन शब्द", "अंग्रेज़ी"],
+        "ta": ["தமிழ் படிக்க", "மொழி", "புரியவில்லை", "கடினமான வார்த்தை", "ஆங்கிலம்"],
+        "pa": ["ਪੰਜਾਬੀ ਪੜ੍ਹ", "ਭਾਸ਼ਾ", "ਸਮਝ ਨਹੀਂ", "ਔਖੇ ਸ਼ਬਦ", "ਅੰਗਰੇਜ਼ੀ"]
+      },
+      "message": {
+        "en": "I switched to simpler words and turned on read-aloud.",
+        "hi": "मैंने आसान शब्द चालू किए और पढ़कर सुनाना चालू किया।",
+        "ta": "எளிய சொற்களுக்கு மாற்றி, சத்தமாகப் படிப்பதை இயக்கினேன்.",
+        "pa": "ਮੈਂ ਆਸਾਨ ਸ਼ਬਦ ਚਾਲੂ ਕੀਤੇ ਅਤੇ ਪੜ੍ਹ ਕੇ ਸੁਣਾਉਣਾ ਚਾਲੂ ਕੀਤਾ।"
+      }
+    },
+    "VOICE_INPUT": {
+      "severity": "medium",
+      "actions": ["switch_to_manual_entry"],
+      "keywords": {
+        "en": ["voice not working", "voice", "mic", "microphone", "speak", "not hearing", "recording"],
+        "hi": ["आवाज़ काम नहीं", "आवाज़", "आवाज", "माइक", "बोलकर", "रिकॉर्ड"],
+        "ta": ["குரல் வேலை செய்யவில்லை", "குரல்", "மைக்", "பேச்சு", "பதிவு"],
+        "pa": ["ਆਵਾਜ਼ ਕੰਮ ਨਹੀਂ", "ਆਵਾਜ਼", "ਮਾਈਕ", "ਬੋਲ ਕੇ", "ਰਿਕਾਰਡ"]
+      },
+      "message": {
+        "en": "I switched to a simple typing form instead of voice.",
+        "hi": "मैंने आवाज़ की जगह आसान टाइपिंग फ़ॉर्म चालू किया।",
+        "ta": "குரலுக்குப் பதிலாக எளிய தட்டச்சுப் படிவத்துக்கு மாற்றினேன்.",
+        "pa": "ਮੈਂ ਆਵਾਜ਼ ਦੀ ਥਾਂ ਆਸਾਨ ਟਾਈਪਿੰਗ ਫਾਰਮ ਚਾਲੂ ਕੀਤਾ।"
+      }
+    },
+    "WRONG_NUMBER": {
+      "severity": "medium",
+      "actions": ["recalc_and_explain"],
+      "keywords": {
+        "en": ["total looks wrong", "total is wrong", "wrong total", "wrong number", "wrong amount", "calculation", "doesn't add up", "earnings wrong", "total"],
+        "hi": ["हिसाब गलत", "कुल गलत", "टोटल", "गलत रकम", "गलत", "हिसाब", "कुल"],
+        "ta": ["மொத்தம் தவறாக", "தவறான தொகை", "கணக்கு தவறு", "மொத்தம்", "தவறாக", "தவறு"],
+        "pa": ["ਹਿਸਾਬ ਗਲਤ", "ਕੁੱਲ ਗਲਤ", "ਗਲਤ ਰਕਮ", "ਗਲਤ", "ਹਿਸਾਬ", "ਕੁੱਲ"]
+      },
+      "message": {
+        "en": "Here is how your total was calculated, step by step.",
+        "hi": "आपका कुल हिसाब कैसे बना, यह कदम-दर-कदम देखें।",
+        "ta": "உங்கள் மொத்தம் எப்படிக் கணக்கிடப்பட்டது என்பதைப் படிப்படியாகப் பாருங்கள்.",
+        "pa": "ਤੁਹਾਡਾ ਕੁੱਲ ਹਿਸਾਬ ਕਿਵੇਂ ਬਣਿਆ, ਇਹ ਕਦਮ-ਦਰ-ਕਦਮ ਦੇਖੋ।"
+      }
+    },
+    "PERFORMANCE": {
+      "severity": "low",
+      "actions": ["enable_lite_mode"],
+      "keywords": {
+        "en": ["app is very slow", "very slow", "slow", "lag", "takes long", "battery", "heavy"],
+        "hi": ["बहुत धीमा", "धीमा", "धीरे", "स्लो", "बैटरी"],
+        "ta": ["மிகவும் மெதுவாக", "மெதுவாக", "மெதுவு", "தாமதம்", "பேட்டரி"],
+        "pa": ["ਬਹੁਤ ਹੌਲੀ", "ਹੌਲੀ", "ਸਲੋ", "ਬੈਟਰੀ"]
+      },
+      "message": {
+        "en": "I turned on Lite mode: fewer animations, lighter screens.",
+        "hi": "मैंने लाइट मोड चालू किया: कम एनिमेशन, हल्की स्क्रीन।",
+        "ta": "லைட் முறையை இயக்கினேன்: குறைந்த அசைவூட்டம், இலகுவான திரைகள்.",
+        "pa": "ਮੈਂ ਲਾਈਟ ਮੋਡ ਚਾਲੂ ਕੀਤਾ: ਘੱਟ ਐਨੀਮੇਸ਼ਨ, ਹਲਕੀਆਂ ਸਕ੍ਰੀਨਾਂ।"
+      }
+    },
+    "FEATURE_BROKEN": {
+      "severity": "high",
+      "actions": ["clear_ui_cache_and_reload"],
+      "keywords": {
+        "en": ["page is stuck", "stuck", "frozen", "not loading", "blank screen", "broken", "not working", "crash", "error", "won't open"],
+        "hi": ["अटक गया", "अटक", "रुक गया", "खुल नहीं", "काम नहीं कर", "खराब", "एरर"],
+        "ta": ["சிக்கிவிட்டது", "சிக்கி", "நின்றுவிட்டது", "திறக்கவில்லை", "வேலை செய்யவில்லை", "பிழை"],
+        "pa": ["ਅਟਕ ਗਿਆ", "ਅਟਕ", "ਰੁਕ ਗਿਆ", "ਖੁੱਲ੍ਹ ਨਹੀਂ", "ਕੰਮ ਨਹੀਂ ਕਰ", "ਖਰਾਬ"]
+      },
+      "message": {
+        "en": "I can refresh the app screens. Your saved data stays safe.",
+        "hi": "मैं ऐप की स्क्रीन ताज़ा कर सकता हूँ। आपका सेव किया डेटा सुरक्षित रहेगा।",
+        "ta": "ஆப் திரைகளைப் புதுப்பிக்க முடியும். உங்கள் சேமித்த தரவு பாதுகாப்பாக இருக்கும்.",
+        "pa": "ਮੈਂ ਐਪ ਦੀਆਂ ਸਕ੍ਰੀਨਾਂ ਤਾਜ਼ਾ ਕਰ ਸਕਦਾ ਹਾਂ। ਤੁਹਾਡਾ ਸੇਵ ਕੀਤਾ ਡਾਟਾ ਸੁਰੱਖਿਅਤ ਰਹੇਗਾ।"
+      }
+    },
+    "STORAGE_CORRUPT": {
+      "severity": "high",
+      "actions": ["repair_storage"],
+      "keywords": {
+        "en": ["data missing", "lost my data", "entries disappeared", "entries missing", "data gone", "saved data", "missing entries"],
+        "hi": ["डेटा गायब", "एंट्री गायब", "डेटा खो", "सेव नहीं"],
+        "ta": ["தரவு காணவில்லை", "பதிவுகள் காணவில்லை", "தரவு போய்விட்டது"],
+        "pa": ["ਡਾਟਾ ਗਾਇਬ", "ਐਂਟਰੀ ਗਾਇਬ", "ਡਾਟਾ ਗੁਆਚ"]
+      },
+      "message": {
+        "en": "I can check your saved data and fix broken items. I will make a backup first.",
+        "hi": "मैं आपका सेव डेटा जाँचकर खराब हिस्से ठीक कर सकता हूँ। पहले बैकअप बनाऊँगा।",
+        "ta": "உங்கள் சேமித்த தரவைச் சரிபார்த்து பழுதானவற்றைச் சரிசெய்ய முடியும். முதலில் காப்புப் பிரதி எடுப்பேன்.",
+        "pa": "ਮੈਂ ਤੁਹਾਡਾ ਸੇਵ ਡਾਟਾ ਜਾਂਚ ਕੇ ਖਰਾਬ ਹਿੱਸੇ ਠੀਕ ਕਰ ਸਕਦਾ ਹਾਂ। ਪਹਿਲਾਂ ਬੈਕਅੱਪ ਬਣਾਵਾਂਗਾ।"
+      }
+    },
+    "DATA_OUTDATED": {
+      "severity": "medium",
+      "actions": ["refresh_data_files"],
+      "keywords": {
+        "en": ["outdated", "old information", "link not working", "wrong scheme", "wrong helpline", "information is old"],
+        "hi": ["पुरानी जानकारी", "लिंक काम नहीं", "गलत योजना"],
+        "ta": ["பழைய தகவல்", "இணைப்பு வேலை செய்யவில்லை", "தவறான திட்டம்"],
+        "pa": ["ਪੁਰਾਣੀ ਜਾਣਕਾਰੀ", "ਲਿੰਕ ਕੰਮ ਨਹੀਂ", "ਗਲਤ ਯੋਜਨਾ"]
+      },
+      "message": {
+        "en": "I refreshed the scheme and helpline information.",
+        "hi": "मैंने योजना और हेल्पलाइन की जानकारी ताज़ा की।",
+        "ta": "திட்டம் மற்றும் உதவி எண் தகவல்களைப் புதுப்பித்தேன்.",
+        "pa": "ਮੈਂ ਯੋਜਨਾ ਅਤੇ ਹੈਲਪਲਾਈਨ ਦੀ ਜਾਣਕਾਰੀ ਤਾਜ਼ਾ ਕੀਤੀ।"
+      }
+    },
+    "ACCESSIBILITY_OTHER": {
+      "severity": "low",
+      "actions": ["set_high_contrast"],
+      "keywords": {
+        "en": ["contrast", "can't see", "cannot see", "colours", "colors", "too bright", "too dark", "sunlight"],
+        "hi": ["दिखाई नहीं", "रंग", "धूप में", "बहुत चमक"],
+        "ta": ["தெரியவில்லை", "நிறம்", "வெயிலில்", "பிரகாசம்"],
+        "pa": ["ਦਿਖਾਈ ਨਹੀਂ", "ਰੰਗ", "ਧੁੱਪ ਵਿੱਚ", "ਬਹੁਤ ਚਮਕ"]
+      },
+      "message": {
+        "en": "I turned on high-contrast colours so things are easier to see.",
+        "hi": "मैंने हाई-कॉन्ट्रास्ट रंग चालू किए ताकि साफ़ दिखे।",
+        "ta": "தெளிவாகத் தெரிய உயர்-மாறுபாடு நிறங்களை இயக்கினேன்.",
+        "pa": "ਮੈਂ ਹਾਈ-ਕੰਟ੍ਰਾਸਟ ਰੰਗ ਚਾਲੂ ਕੀਤੇ ਤਾਂ ਜੋ ਸਾਫ਼ ਦਿਖੇ।"
+      }
+    },
+    "FEATURE_REQUEST": {
+      "severity": "low",
+      "actions": ["submit_report"],
+      "keywords": {
+        "en": ["please add", "can you add", "i want a feature", "new feature", "would like", "wish"],
+        "hi": ["जोड़ दो", "नया फ़ीचर", "चाहिए था"],
+        "ta": ["சேர்க்கவும்", "புதிய வசதி", "வேண்டும்"],
+        "pa": ["ਜੋੜ ਦਿਓ", "ਨਵਾਂ ਫੀਚਰ", "ਚਾਹੀਦਾ ਸੀ"]
+      },
+      "message": {
+        "en": "Thank you for the idea! You can send it to the team.",
+        "hi": "सुझाव के लिए धन्यवाद! आप इसे टीम को भेज सकते हैं।",
+        "ta": "யோசனைக்கு நன்றி! இதை குழுவுக்கு அனுப்பலாம்.",
+        "pa": "ਸੁਝਾਅ ਲਈ ਧੰਨਵਾਦ! ਤੁਸੀਂ ਇਸਨੂੰ ਟੀਮ ਨੂੰ ਭੇਜ ਸਕਦੇ ਹੋ।"
+      }
+    },
+    "OTHER": {
+      "severity": "low",
+      "actions": ["open_human_help"],
+      "keywords": {"en": [], "hi": [], "ta": [], "pa": []},
+      "message": {
+        "en": "Sorry, I did not fully understand. Which one is closest?",
+        "hi": "माफ़ कीजिए, मैं पूरी तरह समझ नहीं पाया। इनमें से कौन सा सबसे पास है?",
+        "ta": "மன்னிக்கவும், முழுமையாகப் புரியவில்லை. இவற்றில் எது பொருந்தும்?",
+        "pa": "ਮਾਫ਼ ਕਰਨਾ, ਮੈਂ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਮਝ ਨਹੀਂ ਸਕਿਆ। ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਸਭ ਤੋਂ ਨੇੜੇ ਹੈ?"
+      }
+    }
+  },
+  "alert_type_words": {
+    "rain": ["rain", "बारिश", "மழை", "ਮੀਂਹ"],
+    "heat": ["heat", "hot", "गर्मी", "வெப்ப", "ਗਰਮੀ"],
+    "goal_near": ["goal", "target", "लक्ष्य", "இலக்கு", "ਟੀਚਾ"],
+    "fatigue": ["break", "rest", "आराम", "ஓய்வு", "ਆਰਾਮ"],
+    "eligibility": ["eligibility", "पात्रता", "தகுதி", "ਯੋਗਤਾ"]
+  },
+  "clarify_chips": ["ALERTS_NOISY", "TEXT_READABILITY", "LANGUAGE", "VOICE_INPUT", "WRONG_NUMBER", "PERFORMANCE", "FEATURE_BROKEN"]
+}

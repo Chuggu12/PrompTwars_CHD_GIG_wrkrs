@@ -1,0 +1,131 @@
+{
+  "about": "Alert copy. Title at most 8 words, body at most 18 words, one action. Warm, plain, never pressuring. Hindi, Tamil and Punjabi need human review.",
+  "types": {
+    "goal_near": {
+      "priority": "nudge", "icon": "target", "cooldown_minutes": 180, "cta_route": "#/earnings",
+      "copy": {
+        "en": {"title": "Almost there!", "body": "{remaining} to go for today's goal.", "cta": "See progress"},
+        "hi": {"title": "बस थोड़ा और!", "body": "आज के लक्ष्य के लिए {remaining} बाकी हैं।", "cta": "प्रगति देखें"},
+        "ta": {"title": "கிட்டத்தட்ட வந்துவிட்டீர்கள்!", "body": "இன்றைய இலக்குக்கு இன்னும் {remaining} மட்டுமே.", "cta": "முன்னேற்றம் பார்க்க"},
+        "pa": {"title": "ਬੱਸ ਥੋੜ੍ਹਾ ਹੋਰ!", "body": "ਅੱਜ ਦੇ ਟੀਚੇ ਲਈ {remaining} ਬਾਕੀ ਹਨ।", "cta": "ਤਰੱਕੀ ਦੇਖੋ"}
+      }
+    },
+    "goal_reached": {
+      "priority": "nudge", "icon": "star", "cooldown_minutes": 1440, "cta_route": "#/earnings",
+      "copy": {
+        "en": {"title": "Goal reached! 🎉", "body": "You reached today's goal of {goal}. Rest well, you earned it.", "cta": "See today"},
+        "hi": {"title": "लक्ष्य पूरा! 🎉", "body": "आपने आज का {goal} का लक्ष्य पूरा किया। अब अच्छे से आराम करें।", "cta": "आज का हिसाब"},
+        "ta": {"title": "இலக்கை அடைந்தீர்கள்! 🎉", "body": "இன்றைய {goal} இலக்கை அடைந்தீர்கள். நன்றாக ஓய்வெடுங்கள்.", "cta": "இன்றைய கணக்கு"},
+        "pa": {"title": "ਟੀਚਾ ਪੂਰਾ! 🎉", "body": "ਤੁਸੀਂ ਅੱਜ ਦਾ {goal} ਦਾ ਟੀਚਾ ਪੂਰਾ ਕੀਤਾ। ਹੁਣ ਚੰਗੀ ਤਰ੍ਹਾਂ ਆਰਾਮ ਕਰੋ।", "cta": "ਅੱਜ ਦਾ ਹਿਸਾਬ"}
+      }
+    },
+    "win": {
+      "priority": "nudge", "icon": "trophy", "cooldown_minutes": 1440, "cta_route": "#/earnings",
+      "copy": {
+        "en": {"title": "Good day", "body": "{net} after costs, {delta} more than yesterday.", "cta": "See details"},
+        "hi": {"title": "अच्छा दिन रहा", "body": "खर्च के बाद {net}, कल से {delta} ज़्यादा।", "cta": "पूरा देखें"},
+        "ta": {"title": "நல்ல நாள்", "body": "செலவுக்குப் பிறகு {net}, நேற்றை விட {delta} அதிகம்.", "cta": "விவரம் பார்க்க"},
+        "pa": {"title": "ਚੰਗਾ ਦਿਨ ਰਿਹਾ", "body": "ਖਰਚੇ ਤੋਂ ਬਾਅਦ {net}, ਕੱਲ੍ਹ ਨਾਲੋਂ {delta} ਵੱਧ।", "cta": "ਪੂਰਾ ਦੇਖੋ"}
+      }
+    },
+    "fatigue": {
+      "priority": "important", "icon": "clock", "cooldown_minutes": 60, "cta_route": "#/guardian",
+      "copy": {
+        "en": {"title": "Time for a short break", "body": "{hours} hours on the road. A 15-minute break helps you stay safe.", "cta": "Take a break"},
+        "hi": {"title": "थोड़ा आराम कर लें", "body": "{hours} घंटे सड़क पर। 15 मिनट का आराम आपको सुरक्षित रखता है।", "cta": "आराम करें"},
+        "ta": {"title": "சிறிது ஓய்வு எடுங்கள்", "body": "{hours} மணி நேரம் சாலையில். 15 நிமிட ஓய்வு உங்களைப் பாதுகாப்பாக வைக்கும்.", "cta": "ஓய்வு எடுக்க"},
+        "pa": {"title": "ਥੋੜ੍ਹਾ ਆਰਾਮ ਕਰ ਲਓ", "body": "{hours} ਘੰਟੇ ਸੜਕ 'ਤੇ। 15 ਮਿੰਟ ਦਾ ਆਰਾਮ ਤੁਹਾਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਦਾ ਹੈ।", "cta": "ਆਰਾਮ ਕਰੋ"}
+      }
+    },
+    "rest_mode": {
+      "priority": "critical", "icon": "moon", "cooldown_minutes": 120, "cta_route": "#/guardian",
+      "copy": {
+        "en": {"title": "Rest Mode is on", "body": "{hours} hours today. Please rest 8 hours before your next shift.", "cta": "Open Rest Mode"},
+        "hi": {"title": "आराम मोड चालू है", "body": "आज {hours} घंटे। अगली शिफ़्ट से पहले 8 घंटे आराम करें।", "cta": "आराम मोड खोलें"},
+        "ta": {"title": "ஓய்வு முறை இயக்கத்தில்", "body": "இன்று {hours} மணி நேரம். அடுத்த ஷிஃப்ட்டுக்கு முன் 8 மணி நேரம் ஓய்வெடுங்கள்.", "cta": "ஓய்வு முறை திற"},
+        "pa": {"title": "ਆਰਾਮ ਮੋਡ ਚਾਲੂ ਹੈ", "body": "ਅੱਜ {hours} ਘੰਟੇ। ਅਗਲੀ ਸ਼ਿਫਟ ਤੋਂ ਪਹਿਲਾਂ 8 ਘੰਟੇ ਆਰਾਮ ਕਰੋ।", "cta": "ਆਰਾਮ ਮੋਡ ਖੋਲ੍ਹੋ"}
+      }
+    },
+    "rain": {
+      "priority": "important", "icon": "rain", "cooldown_minutes": 180, "cta_route": "#/safety",
+      "copy": {
+        "en": {"title": "Rain likely", "body": "Rain likely around {time}. Plan a safe stop.", "cta": "See safe spots"},
+        "hi": {"title": "बारिश हो सकती है", "body": "लगभग {time} बजे बारिश हो सकती है। रुकने की सुरक्षित जगह सोच लें।", "cta": "सुरक्षित जगहें"},
+        "ta": {"title": "மழை வர வாய்ப்பு", "body": "சுமார் {time} மணிக்கு மழை வரலாம். பாதுகாப்பாக நிற்கத் திட்டமிடுங்கள்.", "cta": "பாதுகாப்பான இடங்கள்"},
+        "pa": {"title": "ਮੀਂਹ ਪੈ ਸਕਦਾ ਹੈ", "body": "ਲਗਭਗ {time} ਵਜੇ ਮੀਂਹ ਪੈ ਸਕਦਾ ਹੈ। ਰੁਕਣ ਦੀ ਸੁਰੱਖਿਅਤ ਥਾਂ ਸੋਚ ਲਓ।", "cta": "ਸੁਰੱਖਿਅਤ ਥਾਵਾਂ"}
+      }
+    },
+    "heat": {
+      "priority": "important", "icon": "sun", "cooldown_minutes": 240, "cta_route": "#/safety",
+      "copy": {
+        "en": {"title": "Very hot afternoon", "body": "Drink water and rest in shade.", "cta": "Safe spots"},
+        "hi": {"title": "दोपहर बहुत गर्म है", "body": "पानी पिएँ और छाँव में आराम करें।", "cta": "सुरक्षित जगहें"},
+        "ta": {"title": "மிகவும் வெப்பமான மதியம்", "body": "தண்ணீர் குடித்து நிழலில் ஓய்வெடுங்கள்.", "cta": "பாதுகாப்பான இடங்கள்"},
+        "pa": {"title": "ਦੁਪਹਿਰ ਬਹੁਤ ਗਰਮ ਹੈ", "body": "ਪਾਣੀ ਪੀਓ ਅਤੇ ਛਾਂ ਵਿੱਚ ਆਰਾਮ ਕਰੋ।", "cta": "ਸੁਰੱਖਿਅਤ ਥਾਵਾਂ"}
+      }
+    },
+    "heat_danger": {
+      "priority": "critical", "icon": "sun", "cooldown_minutes": 240, "cta_route": "#/safety",
+      "copy": {
+        "en": {"title": "Dangerous heat today", "body": "Avoid long rides at noon. Drink water and rest in shade.", "cta": "Heat safety"},
+        "hi": {"title": "आज ख़तरनाक गर्मी है", "body": "दोपहर में लंबी सवारी से बचें। पानी पिएँ और छाँव में आराम करें।", "cta": "गर्मी से बचाव"},
+        "ta": {"title": "இன்று ஆபத்தான வெப்பம்", "body": "மதியம் நீண்ட பயணத்தைத் தவிருங்கள். தண்ணீர் குடித்து நிழலில் ஓய்வெடுங்கள்.", "cta": "வெப்பப் பாதுகாப்பு"},
+        "pa": {"title": "ਅੱਜ ਖ਼ਤਰਨਾਕ ਗਰਮੀ ਹੈ", "body": "ਦੁਪਹਿਰ ਨੂੰ ਲੰਮੀ ਸਵਾਰੀ ਤੋਂ ਬਚੋ। ਪਾਣੀ ਪੀਓ ਅਤੇ ਛਾਂ ਵਿੱਚ ਆਰਾਮ ਕਰੋ।", "cta": "ਗਰਮੀ ਤੋਂ ਬਚਾਅ"}
+      }
+    },
+    "late_payment": {
+      "priority": "important", "icon": "wallet", "cooldown_minutes": 1440, "cta_route": "#/payments",
+      "copy": {
+        "en": {"title": "A payment is late", "body": "Payment from {platform} is {days} days late. Want help writing to them?", "cta": "Draft message"},
+        "hi": {"title": "एक भुगतान देर से है", "body": "{platform} का भुगतान {days} दिन देर से है। उन्हें लिखने में मदद चाहिए?", "cta": "संदेश लिखें"},
+        "ta": {"title": "ஒரு பணம் தாமதம்", "body": "{platform} இலிருந்து பணம் {days} நாள் தாமதம். அவர்களுக்கு எழுத உதவி வேண்டுமா?", "cta": "செய்தி எழுத"},
+        "pa": {"title": "ਇੱਕ ਭੁਗਤਾਨ ਦੇਰ ਨਾਲ ਹੈ", "body": "{platform} ਦਾ ਭੁਗਤਾਨ {days} ਦਿਨ ਦੇਰ ਨਾਲ ਹੈ। ਉਨ੍ਹਾਂ ਨੂੰ ਲਿਖਣ ਵਿੱਚ ਮਦਦ ਚਾਹੀਦੀ ਹੈ?", "cta": "ਸੁਨੇਹਾ ਲਿਖੋ"}
+      }
+    },
+    "document": {
+      "priority": "nudge", "icon": "doc", "cooldown_minutes": 1440, "cta_route": "#/documents",
+      "copy": {
+        "en": {"title": "Document expiring soon", "body": "Your {document} expires in {days} days. Set a reminder?", "cta": "Remind me"},
+        "hi": {"title": "दस्तावेज़ जल्द ख़त्म होगा", "body": "आपका {document} {days} दिन में ख़त्म होगा। याद दिलाएँ?", "cta": "याद दिलाएँ"},
+        "ta": {"title": "ஆவணம் விரைவில் காலாவதி", "body": "உங்கள் {document} {days} நாளில் காலாவதியாகும். நினைவூட்டல் வைக்கவா?", "cta": "நினைவூட்டு"},
+        "pa": {"title": "ਦਸਤਾਵੇਜ਼ ਜਲਦੀ ਖ਼ਤਮ ਹੋਵੇਗਾ", "body": "ਤੁਹਾਡਾ {document} {days} ਦਿਨਾਂ ਵਿੱਚ ਖ਼ਤਮ ਹੋਵੇਗਾ। ਯਾਦ ਕਰਵਾਈਏ?", "cta": "ਯਾਦ ਕਰਵਾਓ"}
+      }
+    },
+    "document_urgent": {
+      "priority": "important", "icon": "doc", "cooldown_minutes": 1440, "cta_route": "#/documents",
+      "copy": {
+        "en": {"title": "Renew your document soon", "body": "Your {document} expires in {days} days. Renew it to stay covered.", "cta": "See documents"},
+        "hi": {"title": "दस्तावेज़ जल्दी नया कराएँ", "body": "आपका {document} {days} दिन में ख़त्म होगा। समय पर नया कराएँ।", "cta": "दस्तावेज़ देखें"},
+        "ta": {"title": "ஆவணத்தை விரைவில் புதுப்பியுங்கள்", "body": "உங்கள் {document} {days} நாளில் காலாவதியாகும். நேரத்தில் புதுப்பியுங்கள்.", "cta": "ஆவணங்கள்"},
+        "pa": {"title": "ਦਸਤਾਵੇਜ਼ ਜਲਦੀ ਨਵਾਂ ਕਰਵਾਓ", "body": "ਤੁਹਾਡਾ {document} {days} ਦਿਨਾਂ ਵਿੱਚ ਖ਼ਤਮ ਹੋਵੇਗਾ। ਸਮੇਂ ਸਿਰ ਨਵਾਂ ਕਰਵਾਓ।", "cta": "ਦਸਤਾਵੇਜ਼ ਦੇਖੋ"}
+      }
+    },
+    "document_expired": {
+      "priority": "important", "icon": "doc", "cooldown_minutes": 1440, "cta_route": "#/documents",
+      "copy": {
+        "en": {"title": "A document has expired", "body": "Your {document} has expired. Renew it to stay safe on the road.", "cta": "See documents"},
+        "hi": {"title": "एक दस्तावेज़ ख़त्म हो गया", "body": "आपका {document} ख़त्म हो गया है। सुरक्षित रहने के लिए नया कराएँ।", "cta": "दस्तावेज़ देखें"},
+        "ta": {"title": "ஒரு ஆவணம் காலாவதியானது", "body": "உங்கள் {document} காலாவதியாகிவிட்டது. பாதுகாப்பாக இருக்க புதுப்பியுங்கள்.", "cta": "ஆவணங்கள்"},
+        "pa": {"title": "ਇੱਕ ਦਸਤਾਵੇਜ਼ ਖ਼ਤਮ ਹੋ ਗਿਆ", "body": "ਤੁਹਾਡਾ {document} ਖ਼ਤਮ ਹੋ ਗਿਆ ਹੈ। ਸੁਰੱਖਿਅਤ ਰਹਿਣ ਲਈ ਨਵਾਂ ਕਰਵਾਓ।", "cta": "ਦਸਤਾਵੇਜ਼ ਦੇਖੋ"}
+      }
+    },
+    "eligibility": {
+      "priority": "nudge", "icon": "check", "cooldown_minutes": 10080, "cta_route": "#/eligibility",
+      "copy": {
+        "en": {"title": "Your work days are adding up", "body": "{days} of {target} days counted toward scheme eligibility. Check official rules.", "cta": "See progress"},
+        "hi": {"title": "आपके काम के दिन जुड़ रहे हैं", "body": "योजना की पात्रता के लिए {target} में से {days} दिन गिने गए। सरकारी नियम देखें।", "cta": "प्रगति देखें"},
+        "ta": {"title": "உங்கள் வேலை நாட்கள் கூடுகின்றன", "body": "திட்டத் தகுதிக்கு {target} இல் {days} நாட்கள் கணக்கிடப்பட்டன. அதிகாரப்பூர்வ விதிகளைப் பாருங்கள்.", "cta": "முன்னேற்றம்"},
+        "pa": {"title": "ਤੁਹਾਡੇ ਕੰਮ ਦੇ ਦਿਨ ਜੁੜ ਰਹੇ ਹਨ", "body": "ਯੋਜਨਾ ਦੀ ਯੋਗਤਾ ਲਈ {target} ਵਿੱਚੋਂ {days} ਦਿਨ ਗਿਣੇ ਗਏ। ਸਰਕਾਰੀ ਨਿਯਮ ਦੇਖੋ।", "cta": "ਤਰੱਕੀ ਦੇਖੋ"}
+      }
+    },
+    "data_outdated": {
+      "priority": "nudge", "icon": "info", "cooldown_minutes": 10080, "cta_route": "#/rights",
+      "copy": {
+        "en": {"title": "Please check scheme details", "body": "Some scheme details may be outdated. Please verify on the official site.", "cta": "See schemes"},
+        "hi": {"title": "योजना की जानकारी जाँचें", "body": "कुछ योजना जानकारी पुरानी हो सकती है। सरकारी वेबसाइट पर जाँच लें।", "cta": "योजनाएँ देखें"},
+        "ta": {"title": "திட்ட விவரங்களைச் சரிபாருங்கள்", "body": "சில திட்ட விவரங்கள் பழையதாக இருக்கலாம். அதிகாரப்பூர்வ தளத்தில் சரிபாருங்கள்.", "cta": "திட்டங்கள்"},
+        "pa": {"title": "ਯੋਜਨਾ ਦੀ ਜਾਣਕਾਰੀ ਜਾਂਚੋ", "body": "ਕੁਝ ਯੋਜਨਾ ਜਾਣਕਾਰੀ ਪੁਰਾਣੀ ਹੋ ਸਕਦੀ ਹੈ। ਸਰਕਾਰੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਜਾਂਚ ਲਓ।", "cta": "ਯੋਜਨਾਵਾਂ ਦੇਖੋ"}
+      }
+    }
+  }
+}

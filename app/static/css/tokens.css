@@ -1,0 +1,171 @@
+/* Rozi design tokens: colour (light, dark, high-contrast), spacing, type, radii, elevation, motion. */
+:root {
+  /* Colour: calm teal for trust, one warm marigold accent. */
+  --c-bg: #f5f7f6;
+  --c-surface: #ffffff;
+  --c-surface-2: #eaf1ef;
+  --c-text: #14211f;
+  --c-text-muted: #4a5a57;
+  --c-border: #cfdbd8;
+  --c-primary: #0b5d57;
+  --c-primary-strong: #084843;
+  --c-on-primary: #ffffff;
+  --c-primary-soft: #d8ece8;
+  --c-accent: #b45309;
+  --c-accent-soft: #fdf0dc;
+  --c-on-accent: #ffffff;
+  --c-success: #1d7a3a;
+  --c-success-soft: #dff3e5;
+  --c-warning: #8a5a00;
+  --c-warning-soft: #fff4d6;
+  --c-critical: #b42318;
+  --c-critical-soft: #fde7e4;
+  --c-on-critical: #ffffff;
+  --c-focus: #1f6feb;
+  --c-overlay: rgb(10 20 18 / 0.45);
+  --c-demo: #6d28d9;
+
+  /* Spacing: 8-point scale (s-1 is the half step). */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 16px;
+  --s-4: 24px;
+  --s-5: 32px;
+  --s-6: 48px;
+  --s-7: 64px;
+
+  /* Type scale (rem follows the user's font-size setting). */
+  --font-scale: 1;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Devanagari",
+    "Noto Sans Tamil", "Noto Sans Gurmukhi", "Nirmala UI", sans-serif;
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 2.75rem;
+  --lh-tight: 1.2;
+  --lh-body: 1.55;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Shape and depth. */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-pill: 999px;
+  --e-1: 0 1px 2px rgb(16 40 36 / 0.08), 0 1px 3px rgb(16 40 36 / 0.06);
+  --e-2: 0 4px 12px rgb(16 40 36 / 0.12);
+  --e-3: 0 12px 32px rgb(16 40 36 / 0.18);
+
+  /* Motion. */
+  --m-fast: 120ms;
+  --m-med: 220ms;
+  --m-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Layout. */
+  --touch: 48px;
+  --topbar-h: 60px;
+  --nav-h: 68px;
+  --content-max: 720px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --c-bg: #0d1513;
+    --c-surface: #15201e;
+    --c-surface-2: #1d2b28;
+    --c-text: #e8f0ee;
+    --c-text-muted: #a9bcb8;
+    --c-border: #2e3f3b;
+    --c-primary: #5cc2b6;
+    --c-primary-strong: #7fd3c9;
+    --c-on-primary: #062420;
+    --c-primary-soft: #183632;
+    --c-accent: #f2a541;
+    --c-accent-soft: #3a2a12;
+    --c-on-accent: #241500;
+    --c-success: #6cd38b;
+    --c-success-soft: #173323;
+    --c-warning: #f3c14b;
+    --c-warning-soft: #362a0e;
+    --c-critical: #ff8a7d;
+    --c-critical-soft: #3d1a16;
+    --c-on-critical: #2a0703;
+    --c-focus: #8ab4ff;
+    --c-overlay: rgb(0 0 0 / 0.6);
+    --c-demo: #b794f6;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --c-bg: #0d1513;
+  --c-surface: #15201e;
+  --c-surface-2: #1d2b28;
+  --c-text: #e8f0ee;
+  --c-text-muted: #a9bcb8;
+  --c-border: #2e3f3b;
+  --c-primary: #5cc2b6;
+  --c-primary-strong: #7fd3c9;
+  --c-on-primary: #062420;
+  --c-primary-soft: #183632;
+  --c-accent: #f2a541;
+  --c-accent-soft: #3a2a12;
+  --c-on-accent: #241500;
+  --c-success: #6cd38b;
+  --c-success-soft: #173323;
+  --c-warning: #f3c14b;
+  --c-warning-soft: #362a0e;
+  --c-critical: #ff8a7d;
+  --c-critical-soft: #3d1a16;
+  --c-on-critical: #2a0703;
+  --c-focus: #8ab4ff;
+  --c-overlay: rgb(0 0 0 / 0.6);
+  --c-demo: #b794f6;
+  color-scheme: dark;
+}
+
+/* High contrast: pure black/white with strong borders; works in sunlight. */
+:root[data-contrast="high"] {
+  --c-bg: #ffffff;
+  --c-surface: #ffffff;
+  --c-surface-2: #ffffff;
+  --c-text: #000000;
+  --c-text-muted: #1a1a1a;
+  --c-border: #000000;
+  --c-primary: #003d38;
+  --c-primary-strong: #002522;
+  --c-on-primary: #ffffff;
+  --c-primary-soft: #ffffff;
+  --c-accent: #7a3300;
+  --c-accent-soft: #ffffff;
+  --c-success: #004d1a;
+  --c-success-soft: #ffffff;
+  --c-warning: #4d3200;
+  --c-warning-soft: #ffffff;
+  --c-critical: #8a0000;
+  --c-critical-soft: #ffffff;
+  --c-focus: #0000ee;
+  --e-1: 0 0 0 2px #000000;
+  --e-2: 0 0 0 2px #000000;
+  --e-3: 0 0 0 3px #000000;
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --m-fast: 0ms;
+    --m-med: 0ms;
+  }
+}
+
+:root[data-lite="on"] {
+  --m-fast: 0ms;
+  --m-med: 0ms;
+  --e-2: var(--e-1);
+  --e-3: var(--e-1);
+}

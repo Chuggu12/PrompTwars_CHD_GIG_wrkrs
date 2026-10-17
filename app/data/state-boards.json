@@ -1,0 +1,50 @@
+{
+  "about": "State welfare boards and labour departments. Use these to find official minimum wages and complaint offices. Verify every link.",
+  "entries": [
+    {
+      "id": "central",
+      "state": "all",
+      "title": {"en": "Ministry of Labour & Employment (find your state labour department)", "hi": "श्रम एवं रोज़गार मंत्रालय (अपने राज्य का श्रम विभाग खोजें)", "ta": "தொழிலாளர் மற்றும் வேலைவாய்ப்பு அமைச்சகம் (உங்கள் மாநில தொழிலாளர் துறையைக் கண்டறியுங்கள்)", "pa": "ਕਿਰਤ ਅਤੇ ਰੁਜ਼ਗਾਰ ਮੰਤਰਾਲਾ (ਆਪਣੇ ਰਾਜ ਦਾ ਕਿਰਤ ਵਿਭਾਗ ਲੱਭੋ)"},
+      "official_url": "https://labour.gov.in",
+      "source": "Government of India",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "rajasthan",
+      "state": "Rajasthan",
+      "title": {"en": "Rajasthan Labour Department (gig workers welfare board)", "hi": "राजस्थान श्रम विभाग (गिग वर्कर कल्याण बोर्ड)", "ta": "ராஜஸ்தான் தொழிலாளர் துறை (கிக் தொழிலாளர் நல வாரியம்)", "pa": "ਰਾਜਸਥਾਨ ਕਿਰਤ ਵਿਭਾਗ (ਗਿਗ ਵਰਕਰ ਭਲਾਈ ਬੋਰਡ)"},
+      "official_url": "https://labour.rajasthan.gov.in",
+      "source": "Government of Rajasthan",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "karnataka",
+      "state": "Karnataka",
+      "title": {"en": "Karnataka Labour Department (platform workers welfare board)", "hi": "कर्नाटक श्रम विभाग (प्लेटफ़ॉर्म वर्कर कल्याण बोर्ड)", "ta": "கர்நாடகா தொழிலாளர் துறை (தளப்பணியாளர்கள் நல வாரியம்)", "pa": "ਕਰਨਾਟਕ ਕਿਰਤ ਵਿਭਾਗ (ਪਲੇਟਫਾਰਮ ਵਰਕਰ ਭਲਾਈ ਬੋਰਡ)"},
+      "official_url": "https://labour.karnataka.gov.in",
+      "source": "Government of Karnataka",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "tamil_nadu",
+      "state": "Tamil Nadu",
+      "title": {"en": "Tamil Nadu Labour Department", "hi": "तमिलनाडु श्रम विभाग", "ta": "தமிழ்நாடு தொழிலாளர் துறை", "pa": "ਤਾਮਿਲਨਾਡੂ ਕਿਰਤ ਵਿਭਾਗ"},
+      "official_url": "https://labour.tn.gov.in",
+      "source": "Government of Tamil Nadu",
+      "verified_on": null,
+      "verified": false
+    },
+    {
+      "id": "punjab",
+      "state": "Punjab",
+      "title": {"en": "Punjab Labour Department", "hi": "पंजाब श्रम विभाग", "ta": "பஞ்சாப் தொழிலாளர் துறை", "pa": "ਪੰਜਾਬ ਕਿਰਤ ਵਿਭਾਗ"},
+      "official_url": "https://pblabour.gov.in",
+      "source": "Government of Punjab",
+      "verified_on": null,
+      "verified": false
+    }
+  ]
+}
