@@ -1,4 +1,8 @@
-"""Runtime settings, read once from the environment (see .env.example)."""
+"""Runtime settings, read once from the environment (see .env.example).
+
+Loads .env then .env.local, with .env.local taking priority - so a developer's local
+key never has to touch .env or get committed.
+"""
 
 from __future__ import annotations
 
@@ -16,7 +20,7 @@ def _split_csv(value: str) -> list[str]:
 class Settings(BaseSettings):
     """Immutable application settings. Secrets are SecretStr so they never print."""
 
-    model_config = SettingsConfigDict(env_file=".env", extra="ignore", frozen=True)
+    model_config = SettingsConfigDict(env_file=(".env", ".env.local"), extra="ignore", frozen=True)
 
     env: Literal["development", "production", "test"] = "development"
     gemini_api_key: SecretStr | None = None

@@ -250,13 +250,17 @@ anything safety-critical).
 py -3.12 -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements-dev.txt
-copy .env.example .env
-# then edit .env and add GEMINI_API_KEY (app runs fine without one — see below)
+copy .env.example .env.local
+# then edit .env.local and add GEMINI_API_KEY (app runs fine without one — see below)
 uvicorn app.main:app --reload --port 8080
 ```
 
 Open `http://localhost:8080`, tap **"Try with demo data"** on first launch to see every
 flow without typing anything.
+
+Settings load from `.env` first, then `.env.local` on top (`.env.local` wins). Both
+are git-ignored — only `.env.example` is committed, as a template — so a local key
+never ends up in version control.
 
 **Without a `GEMINI_API_KEY`**, the app does not break: `app/config.py` /
 `app/ai/registry.py` detect the missing key, every AI endpoint returns its
